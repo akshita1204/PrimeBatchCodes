@@ -11,7 +11,7 @@ int main()
     {
         for(int dig=0;dig<10;dig++)
         {
-            pre[i+1][dig]=pre[i][dig];
+            pre[i+1][dig]=pre[i][dig]; //copy the pre row
         }
         pre[i+1][s[i]-'0']++;
     }
@@ -21,7 +21,7 @@ int main()
     {
         for(int dig=0;dig<10;dig++)
         {
-            suf[i][dig]=suf[i+1][dig];
+            suf[i][dig]=suf[i+1][dig];  //copy the prev row 
         }
        suf[i][s[i]-'0']++;
     }
