@@ -1,9 +1,11 @@
 #include<bits/stdc++.h>
 using namespace std;
+
 int get(int s,int t,int c)
 {
   return (s+t)%(c+1);
 }
+
 int main()
 {
   int n,q,c;
@@ -38,6 +40,7 @@ int main()
       }
     }
   }
+  
   while(q--)
   {
     int t,x1,y1,x2,y2;
