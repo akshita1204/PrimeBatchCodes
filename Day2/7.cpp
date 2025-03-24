@@ -1,0 +1,1 @@
+//https://codeforces.com/problemset/problem/226/A#:~:text=Problem%20%2D%20226A%20%2D%20Codeforces&text=An%20expedition%20group%20flew%20from,off%2C%20consists%20of%20three%20sections.
