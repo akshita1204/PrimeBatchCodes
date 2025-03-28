@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/PrimeCodes/PrefixSuffix",
-      "program": "d:/PrimeCodes/PrefixSuffix/build/Debug/outDebug",
+      "cwd": "d:/PrimeCodes/Searching",
+      "program": "d:/PrimeCodes/Searching/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
