@@ -1,0 +1,1 @@
+//https://www.hackerearth.com/practice/algorithms/searching/binary-search/practice-problems/algorithm/remainder-twist-987a698c/?purpose=login&source=problem-page&update=google
