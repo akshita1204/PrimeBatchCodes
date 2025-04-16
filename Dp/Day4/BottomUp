@@ -1,0 +1,6 @@
+
+
+
+1.Create a DP matrix of derived dimension
+2. Decide how to fill (direction=>from recurence relation)
+3.Decide which cells to initialize=> look at the base case
