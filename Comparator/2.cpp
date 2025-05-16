@@ -16,7 +16,7 @@ int main()
  for(int i=0;i<n;i++) cin>>v[i];
  for(int i=0;i<n;i++)
  {
-   ct[i]++;
+   ct[v[i]]++;
  }
  sort(v.begin(),v.end(),cmp);
  for(int i=0;i<n;i++)
