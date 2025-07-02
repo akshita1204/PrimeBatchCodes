@@ -12,7 +12,7 @@ long long f(long long n,long long sum,bool tc) {
     long long limit= tc==true ? r[r.size()-n]-'0' : 9;
 
     long long ans=0;
-    for(long long i=0;i<=9;i++) {
+    for(long long i=0;i<=limit;i++) {
       bool nc=false;
       if(i==limit) nc=true;
         ans+=f(n-1,sum-i,nc);
@@ -23,7 +23,7 @@ long long f(long long n,long long sum,bool tc) {
 int main() {
     long long n,sum;
     cin>>n>>sum;
-    cin>>r;
+    r="7463";
     memset(dp,-1,sizeof(dp));
     cout<<f(n,sum,true)<<endl; 
     return 0;
