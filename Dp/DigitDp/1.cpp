@@ -1,3 +1,4 @@
+/*
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -22,3 +23,5 @@ int main() {
     cout<<f(n,sum)<<endl; 
     return 0;
 }
+
+*/
