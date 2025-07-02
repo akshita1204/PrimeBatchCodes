@@ -14,7 +14,7 @@ long long f(long long n,long long sum,bool tc) {
     long long ans=0;
     for(long long i=0;i<=limit;i++) {
       bool nc=false;
-      if(i==limit) nc=true;
+      if(i==limit && tc==true) nc=true;
         ans+=f(n-1,sum-i,nc);
     }
     return dp[n][sum][tc]=ans;
